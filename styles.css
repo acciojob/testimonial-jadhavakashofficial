@@ -1,1 +1,28 @@
-/*  your css code here. If applicable */
+/* Main Container Styles */
+.testimonial-container {
+  background-color: #f5f5f5; /* Light gray background */
+  padding: 20px;            /* Space around the container */
+  font-family: sans-serif;  /* Example font family */
+}
+
+.testimonial-container h2 {
+  margin-bottom: 20px;
+  font-size: 1.5rem;
+}
+
+/* Individual Testimonial Box */
+.testimonial-box {
+  background-color: #fff;   /* White background for contrast */
+  border: 1px solid #ccc;   /* Light border */
+  padding: 15px;
+  margin-bottom: 20px;      /* Space between testimonial boxes */
+}
+
+/* Text within the testimonial is left unstyled (default). */
+
+/* Author styling: right aligned, italic */
+.author {
+  text-align: right;
+  font-style: italic;
+  margin-top: 10px;         /* Spacing before author name */
+}
